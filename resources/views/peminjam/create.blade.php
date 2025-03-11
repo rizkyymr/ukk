@@ -11,13 +11,13 @@
             <form action="{{ route('peminjam.store') }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="space-y-2">
-                    <label for="nama" class="block">NAMA:</label>
+                    <label for="nama" class="block">NAMA</label>
                     <input type="text" class="border rounded p-2 w-full" name="nama" placeholder="Silahkan isi nama">
 
-                    <label for="alamat">ALAMAT:</label>
+                    <label for="alamat">ALAMAT</label>
                     <textarea name="alamat" class="border rounded p-2 w-full" id="" cols="30" rows="10" placeholder="Silahkan isi alamat"></textarea>
 
-                    <label for="foto" class="block">FOTO:</label>
+                    <label for="foto" class="block">FOTO</label>
                     <input type="file" class="border rounded p-2 w-full" name="foto" placeholder="Silahkan Pilih Foto">
 
                     <button class="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded w-full">

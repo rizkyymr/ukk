@@ -12,13 +12,13 @@
                 @csrf
                 @method('PUT')
                 <div class="space-y-2">
-                    <label for="nama" class="block">Nama:</label>
+                    <label for="nama" class="block">NAMA</label>
                     <input type="text" class="border rounded p-2 w-full" name="nama" value="{{ ($peminjam->nama) }}">
 
-                    <label for="alamat">Alamat:</label>
+                    <label for="alamat">ALAMAT:</label>
                     <textarea name="alamat" class="border rounded p-2 w-full" id="" cols="30" rows="10">{{ ($peminjam->alamat) }}</textarea>
 
-                    <label for="foto" class="block">FOTO:</label>
+                    <label for="foto" class="block">FOTO</label>
                     <input type="file" class="border rounded p-2 w-full" name="foto" value="{{ ($peminjam->foto) }}">
 
                     <button class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded w-full">
